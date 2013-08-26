@@ -1,0 +1,8 @@
+LABEL OPENNSUSEX86
+MENU LABEL ^openSUSE x86
+KERNEL er/plugins/opensuse/i386/linux
+INITRD er/plugins/opensuse/i386/initrd
+APPEND ramdisk_size=100000 ip=dhcp splash=silent vga=0x314 showopts install=http://10.0.0.1/er/opensuse/11.4/i386/
+TEXT HELP
+                 Install OpenSUSE x86 to local system.
+ENDTEXT

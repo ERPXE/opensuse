@@ -1,0 +1,17 @@
+LABEL OPENNSUSEX86REPAIR86
+MENU LABEL ^openSUSE x86 Repair
+KERNEL er/plugins/opensuse/i386/linux
+INITRD er/plugins/opensuse/i386/initrd
+APPEND ramdisk_size=100000 ip=dhcp splash=silent repair=1 showopts
+TEXT HELP
+                 Repair OpenSUSE x86 Installation.
+ENDTEXT
+
+LABEL OPENNSUSEX86RESCUE86
+MENU LABEL ^openSUSE x86 Rescue
+KERNEL er/plugins/opensuse/i386/linux
+INITRD er/plugins/opensuse/i386/initrd
+APPEND ramdisk_size=100000 ip=dhcp splash=silent rescue=1 showopts
+TEXT HELP
+                 Rescue Mode OpenSUSE x86.
+ENDTEXT

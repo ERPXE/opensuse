@@ -1,0 +1,8 @@
+LABEL OPENNSUSEX86OL
+MENU LABEL ^openSUSE x86 Internet Installation 
+KERNEL er/plugins/opensuse/i386/linux
+INITRD er/plugins/opensuse/i386/initrd
+APPEND ramdisk_size=100000 ip=dhcp splash=silent vga=0x314 showopts install=http://download.opensuse.org/factory/repo/oss/
+TEXT HELP
+                 OpenSUSE x86 Internet Installation.
+ENDTEXT

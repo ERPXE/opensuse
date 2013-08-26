@@ -1,0 +1,16 @@
+MENU BEGIN OPENSUSE
+MENU LABEL ^openSUSE 12.1
+# ------====> Include Menu Settings <====------
+MENU INCLUDE er/menuinc/header.module
+
+# ------====> Set Specific Page Settings <====------
+MENU BACKGROUND er/plugins/opensuse/opensuse.png
+
+MENU INCLUDE er/plugins/opensuse/i386/opensusemain.menu
+MENU INCLUDE er/plugins/opensuse/i386/opensusemain.online.menu
+MENU INCLUDE er/plugins/opensuse/x86_64/opensusemain.menu
+MENU INCLUDE er/plugins/opensuse/x86_64/opensusemain.online.menu
+  
+# ------====> Back <====------
+MENU INCLUDE er/menu/shared/menu-back.module
+MENU END

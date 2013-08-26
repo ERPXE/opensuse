@@ -1,0 +1,8 @@
+LABEL OPENNSUSEX64OL
+MENU LABEL ^openSUSE x64 Internet Installation
+KERNEL er/plugins/opensuse/x86_86/linux
+INITRD er/plugins/opensuse/x86_86/initrd
+APPEND ramdisk_size=100000 ip=dhcp splash=silent vga=0x314 showopts install=http://download.opensuse.org/factory/repo/oss/
+TEXT HELP
+                 OpenSUSE x64 Internet Installation.
+ENDTEXT

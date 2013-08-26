@@ -1,0 +1,8 @@
+LABEL OPENNSUSEX64
+MENU LABEL ^openSUSE x64 
+KERNEL er/plugins/opensuse/x86_86/linux
+INITRD er/plugins/opensuse/x86_86/initrd
+APPEND ramdisk_size=100000 ip=dhcp splash=silent vga=0x314 showopts install=http://10.0.0.1/er/opensuse/11.4/x86_86/
+TEXT HELP
+                 Install OpenSUSE x64 to local system.
+ENDTEXT
